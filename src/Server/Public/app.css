@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.root {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.greeting,
+.result {
+  width: 100%;
+  text-align: center;
+}
+
+.quiz {
+  width: 100%;
+  padding: 0 6em;
+}
+
+.option-list {
+  padding: 0;
+}
+
+.option-item {
+  display: block;
+  padding: 1em;
+  border: 1px #ccc dotted;
+  margin-bottom: 0.4em;
+  cursor: pointer;
+}
+
+.option-item:hover {
+  background-color: #ccc;
+}
