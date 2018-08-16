@@ -4,7 +4,7 @@ const outputDir = path.join(__dirname, "src/Server/Public");
 const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
-  entry: "./src/Client/Index.bs.js",
+  entry: "./lib/js/src/Client/Index.bs.js",
   mode: isProd ? "production" : "development",
   output: {
     path: outputDir,
